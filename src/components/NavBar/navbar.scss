@@ -1,0 +1,22 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: white;
+
+    &__name{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    &__item{
+        list-style-type: none;
+        display: flex;
+        gap:30px;
+
+        li{
+            cursor: pointer;
+            font-weight: 500;
+        }
+    }
+}
